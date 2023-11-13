@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<hr/><hr/>
+<h4>Upload Files:</h4>
+<form method="POST" th:action="@{/uploadFiles}" enctype="multipart/form-data">
+    <input type="file" name="files" multiple/> <br/><br/>
+    <button type="submit">Submit</button>
+</form>
+
+<hr/>
+</body>
+</html>
